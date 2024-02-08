@@ -64,7 +64,7 @@ export function App() {
         />
       </form>
 
-      <div className='h-px bg-slate-700' />
+      <div className='h-px bg-slate-700 -translate-y-2' />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 auto-rows-[250px] ">
         <NewNoteCard onNoteCreated={onNoteCreated} />
